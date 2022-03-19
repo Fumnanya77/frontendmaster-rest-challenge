@@ -99,17 +99,17 @@ function getDetailPage(country) {
           </div>
           <div class="left-detail col-md-6">
             <p><strong>Top Level Domain: </strong>${country.topLevelDomain}</p>
-            <p><strong>Currencies: </strong>${country.currencies}</p>
-            <p><strong>Languages: </strong>${country.languages}</p>
+            <p><strong>Currencies: </strong>${country.currencies.map(element=>element.name)}</p>
+            <p><strong>Languages: </strong>${country.languages.map(element=>element.name)}</p>
           </div>
         </div>
         <br><br><br>
         <div class="border-countries row">
           <p class="col-md-3"><strong>Border Countries:</strong></p>
           <div class="col-md-6">
-          <a href="#" class="btn btn-primary bg-white border-0 shadow-c text-black">yyyyyyy</a>
-          <a href="#" class="btn btn-primary bg-white border-0 shadow-c text-black">bbbbbbb</a>
-          <a href="#" class="btn btn-primary bg-white border-0 shadow-c text-black">ccccccc</a>
+          <a href="#" class="btn btn-primary bg-white border-0 shadow-c text-black">${country.border}</a>
+          <a href="#" class="btn btn-primary bg-white border-0 shadow-c text-black">${country.border}</a>
+          <a href="#" class="btn btn-primary bg-white border-0 shadow-c text-black">${country.border}</a>
           </div>
         </div>
       </div>
