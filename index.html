@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rest_Countries_API</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+  <div class="top-header shadow-sm">
+    <div class="container">
+      <div class="top-text-holder p-3 mb-5 d-flex justify-content-between align-items-center">
+        <h3 class="fw-bold text-white">Where in the world?</h3>
+        <a href="#" class="mode text-black"><i class="far fa-moon"></i> Dark Mode</a>
+      </div>
+    </div>
+  </div>
+ <section id="">
+  <div class="container">
+    <div class="row justify-content-between align-items-center my-1">
+      <form action="#" class="col-md-5 col-sm-12">
+        <div class="shadow-c row form-control">
+          <i class="fa fa-search search-icon col-md-1"></i>
+          <input type="text" class="search-input col-md-11 border-0 py-2" placeholder="Search for a Country...">
+        </div>
+      </form>
+      <div class="dropdown col-md-2 col-sm-12">
+        <button class="btn btn-secondary bg-white text-black border-0 shadow-c" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Filter by Region <i class="fa fa-angle-down"></i></button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">All</a></li>
+          <li><a class="dropdown-item" href="#">Africa</a></li>
+          <li><a class="dropdown-item" href="#">America</a></li>
+          <li><a class="dropdown-item" href="#">Asia</a></li>
+          <li><a class="dropdown-item" href="#">Europe</a></li>
+          <li><a class="dropdown-item" href="#">Oceania</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="countries-list" class="row">
+    </div>
+  </div>
+ </section>
+
+  <section id="details-section" class="switch">
+    
+  </section>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
