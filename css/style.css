@@ -29,10 +29,6 @@ body {
   overflow: scroll;
 }
 
-.container {
-  margin: 3% auto !important;
-}
-
 .shadow-c {
   box-shadow: var(--shadow-c);
 }
@@ -162,6 +158,10 @@ input::placeholder{
 
 
 @media only screen and (max-width:376px) {
+  .container {
+    margin: 3% auto !important;
+  }
+  
   .top-header {
     font-size: 10px;
   }
